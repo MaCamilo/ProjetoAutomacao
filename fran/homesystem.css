@@ -1,0 +1,170 @@
+@font-face{
+    font-family: "comfortaa-regular";
+    src: url(fontes/Comfortaa-VariableFont_wght.ttf);
+}
+.comfortaa{
+   font-family: "comfortaa-regular";
+   font-weight: 400;
+   font-size: normal;
+}
+.comfortaa-style{
+    font-family: "comfortaa-regular", system-ui;
+    font-optical-sizing: auto; 
+    font-style: normal;
+}
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7F6F0;
+}
+body-2 {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.header {
+    padding: 70px; /*centralizar*/
+    position: relative;
+    z-index: 10;
+}
+/*login*/
+.login_body {
+    padding: 70px;
+    position: relative;
+    max-width: 500px;
+    height: 500px;
+    margin-left: 50%; 
+    background-color: #2D2F34;
+    border-radius: 40px;
+    box-sizing: border-box;
+    transform: translateX(-55%);  /*Tamanho dos lados*/
+}
+
+.login_body h2 {
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+}
+
+.login_body input {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: rgb(187, 185, 185);
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 40px;
+}
+.login_body input:hover {
+    background-color: #444;
+}
+
+.input_box {
+    margin-bottom: 20px;
+}
+.login_body button {
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    background-color: #767474;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.login_body button:hover {
+    background-color: #544f4f;
+    cursor: pointer;
+}
+.support {
+    display: flex;
+    color: #b3b3b3;
+    justify-content: space-between;
+    font-size: 15px; 
+    margin-bottom: 5px;
+}
+
+.support input {
+    width: 15px; /* largura do botao do lembre-se de mim*/
+    height: 15px; 
+}
+
+/*cadastro*/
+.cadastro_body {
+    padding: 50px;
+    position: relative;
+    max-width: 500px;
+    height: 700px;
+    margin-left: 50%;
+    margin-top: 20px; 
+    background-color: #2D2F34;
+    border-radius: 40px;
+    box-sizing: border-box;
+    transform: translateX(-55%);  /*Tamanho dos lados*/
+    
+}
+.cadastro_body h2 {
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+}
+.cadastro_body input {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: rgb(187, 185, 185);
+    border: none;
+    border-radius: 6px;
+    padding-left: 15px; /*espaço do dos nomes (email,senha,etc)*/
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 40px;
+}
+.cadastro_body input:hover {
+    background-color: rgb(119, 112, 112);
+    border-radius: 40px;
+}
+.input_box {
+    margin-bottom: 20px;
+}
+.cadastro_body button {
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    background-color: #767474;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 10px;
+}
+.cadastro_body button:hover {
+    background-color: #544f4f;
+    cursor: pointer;
+    
+}
+.cadastro-support {
+    display: flex;
+    color: #b3b3b3;
+    justify-content: space-between;
+    font-size: 15px; 
+    margin-bottom: 5px;
+}
+.cadastro-support input {
+    width: 15px; /* largura do botao do lembre-se de mim*/
+    height: 15px; 
+}
+
+
+
