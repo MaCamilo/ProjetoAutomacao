@@ -1,43 +1,43 @@
-
-@font-face{
+@font-face {
     font-family: "Comfortaa-Regular";
-    src: url(fonts/static/Comfortaa-Medium.ttf) 
+    src: url(fonts/static/Comfortaa-Medium.ttf)
 }
 
-.Comfortaa{
+.Comfortaa {
     font-family: "Comfortaa-Regular";
     font-weight: 400;
     font-style: normal;
 }
 
-.Comfortaa-Style{
-  font-family: "Comfortaa-Regular", system-ui;
-  font-optical-sizing: auto;
-  font-style: normal;
+.Comfortaa-Style {
+    font-family: "Comfortaa-Regular", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-*{
+* {
     padding: 0;
-	margin: 0;
+    margin: 0;
 }
 
-body{
+body {
     margin: 0;
     overflow: hidden;
     background-color: #f7f6f0;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
 }
 
-.cabecalho{
+.cabecalho {
     width: 100%;
     height: 120px;
     background-color: #2f3540;
 }
-.logo{
+
+.logo {
     display: flex;
     margin-top: 1%;
     width: 20%;
@@ -51,7 +51,7 @@ header{
 .sub-cabecalho ul {
     display: flex;
     list-style: none;
-    
+
 }
 
 .sub-cabecalho ul li {
@@ -62,81 +62,90 @@ header{
 
 }
 
-.linha{
+.linha {
     align-content: flex-end;
     margin-left: 300px;
     margin-right: 50px;
     color: white;
 }
 
-.cor-branco{
+.cor-branco {
     color: white;
 }
 
-.search-box{
+.search-box {
     position: absolute;
     top: 10%;
     right: 39%;
-    
+
     background-color: white;
-    
+
     height: 40px;
     width: 350px;
     border-radius: 40px;
+    border: 0;
 
     display: flex;
     justify-content: space-around;
-    
+
 }
 
-.seach-text{
-   background-color: none;
+.seach-text {
+    background-color: #fff;
     border: 0;
+    border-radius: 40px;
     width: 250px;
+    height: 39px;
     align-items: center;
-    
 
 }
 
-.area-ofertas{
+.area-ofertas {
     width: 100%;
     height: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.area-ofertas img{
+
+.area-ofertas img {
     width: 100%;
     height: 240px;
 
 }
 
-.titulo{
+.titulo {
     display: flex;
     margin-left: 40%;
 }
 
-.area-marca{
+.area-marca {
     width: 100%;
     height: 220px;
-    background-color: aquamarine;
-    align-content: space-between;
-}
-
-.caixa-marca{
-    display: flex;
-    width: 15%;
-    height: 150px;
-    background-color: blanchedalmond;
-    margin: auto;
+    align-content: center;
     
 }
 
+.caixa-marca {
+    width: 200px;
+    height: 130px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 190px;
+    border-radius: 20px;
+}
+
+.marca-titulo{
+    position: relative;
+    top: 60%;
+    right: 9%;
+}
 
 
 
-footer{
+
+footer {
     background-color: #2f3540;
     height: 80px;
 }
