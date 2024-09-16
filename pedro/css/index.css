@@ -62,6 +62,11 @@ header {
 
 }
 
+.sub-cabecalho ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .linha {
     align-content: flex-end;
     margin-left: 300px;
@@ -133,17 +138,13 @@ header {
     display: inline-block;
     align-items: center;
     margin-left: 190px;
-    border-radius: 20px;
 }
 
 .marca-titulo{
     position: relative;
-    top: 60%;
-    right: 9%;
+    top: 40%;
+    right: 10%;
 }
-
-
-
 
 footer {
     background-color: #2f3540;
