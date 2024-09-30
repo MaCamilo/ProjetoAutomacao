@@ -129,7 +129,13 @@ header {
     width: 100%;
     height: 220px;
     align-content: center;
+    text-decoration: none;
     
+}
+
+.area-marca a{
+    text-decoration: none;
+    color: black;
 }
 
 .caixa-marca {
@@ -144,6 +150,7 @@ header {
     position: relative;
     top: 40%;
     right: 10%;
+    
 }
 
 footer {
