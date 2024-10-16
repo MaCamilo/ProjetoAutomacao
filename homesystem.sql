@@ -48,7 +48,7 @@ compra_fornecedor
     entrega - datetime
     devoluçao - datetime
     
-peoduto_fornecedor
+produto_fornecedor
     id - int (11)
    nome - varchar(100)
    marcas - varchar(100)
