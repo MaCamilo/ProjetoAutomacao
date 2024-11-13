@@ -32,11 +32,9 @@
                 </li>
 
                 <li>
-                    <div class="search-box ">
-                        <input type="text" class="texto-pesquisa seach-text" placeholder="Pesquisar"><i
-                            class="bx bx-search bx-md"></i>
-
-                    </div>
+                    <form action="/search" method="get">
+                        <input class="seach-text search-box" type="text" name="query" placeholder="Buscar...">
+                    </form>
                 </li>
                 <li>
                     <a href="http://127.0.0.1:5501/contato.html" target="_blank">Contato</a>
@@ -53,9 +51,7 @@
     </header>
     <!--Area do Banner-Rotatorio-->
     <main>
-        <div>
-            <div class="area-ofertas">
-
+        <div class="area-ofertas">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -67,14 +63,14 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="img/banner2.png" class="d-block w-100"
+                            <img src="img/banner 1 (1).png" class="d-block w-100"
                                 alt="Banner de exploração de novos produtos">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/banner4.png" class="d-block w-100" alt="Agenda usa instalação">
+                            <img src="img/banner 4 (1).png" class="d-block w-100" alt="Agenda sua instalação">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/banner1.png" class="d-block w-100"
+                            <img src="img/Banner Promoção.png" class="d-block w-100"
                                 alt="Banner Frete gratis, segurança em primeiro lugar e descubra produtos que mudão vidas">
                         </div>
                     </div>
@@ -90,7 +86,7 @@
                     </button>
                 </div>
 
-            </div>
+            
         </div>
     </main>
     <div class="titulo">
@@ -112,7 +108,41 @@
         <a href="#"><span class="marca-titulo Comfortaa-Style">TP-LINK</span></a>
 
     </div>
-    <footer></footer>
+    <footer>
+        <div class="col col-md-2 area-logo-rodape">
+        </div>
+        <div class="col col-md-3 area-link-cardapio-rodape">
+            <div class="titulos-colunas-rodape">
+                <h5>Conheça nossos produtos!</h5>
+
+            </div>
+                <div class="area-link-rodape">
+                    <a href="">
+                    <h6 class="clique-aqui">Clique aqui</h6>
+                    <i class="icon-seta-direita-rodape bx bx-right-arrow-alt bx-lg"></i>
+                </a>
+                </div>
+        </div>
+        <div class="col col-md-3 area-link-contato-rodape">
+            <div class="titulos-colunas-rodape">
+                <h5>Faça uma pergunta ou sugestão</h5>
+            </div>
+                <div class="area-link-rodape">
+                    <a href="contato.html">
+                    <h6>Clique aqui</h6>
+                    <i class="icon-seta-direita-rodape bx bx-right-arrow-alt bx-lg"></i>
+                </a>
+                </div>
+        </div>
+        <div class="col col-md-3 apps-rodape">
+            <h5>Nos acompanhe nas redes sociais</h5>
+            <ul>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="icons-apps-rodape bx bxl-instagram bx-lg"></i></a></li>
+                <li><a href="https://x.com/?lang=pt-br" target="_blank"><i class="icons-apps-rodape bx bxl-twitter bx-lg"></i></a></li>
+                <li><a href="https://web.whatsapp.com/" target="_blank"><i class="icons-apps-rodape bx bxl-whatsapp bx-lg"></i></a>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 

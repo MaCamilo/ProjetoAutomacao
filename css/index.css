@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Comfortaa-Regular";
-    src: url(fonts/static/Comfortaa-Medium.ttf)
+    src: url(static/Comfortaa-Regular.ttf)
 }
 
 .Comfortaa {
@@ -22,8 +22,11 @@
 
 body {
     margin: 0;
-    overflow: hidden;
     background-color: #f7f6f0;
+}
+
+main{
+    margin-bottom: 50px;
 }
 
 header {
@@ -82,14 +85,12 @@ header {
 .search-box {
     position: absolute;
     top: 10%;
-    right: 39%;
+    right: 43%;
 
     background-color: white;
-
     height: 40px;
-    width: 350px;
+    width: 300px;
     border-radius: 40px;
-    border: 0;
 
     display: flex;
     justify-content: space-around;
@@ -99,29 +100,21 @@ header {
 .seach-text {
     background-color: #fff;
     border: 0;
-    border-radius: 40px;
-    width: 250px;
-    height: 39px;
+    border-color: #fff;
+    width: 200px;
+    height: 29px;
     align-items: center;
-
-}
-
-.fileira-oferta{
-    
 }
 
 .area-ofertas {
-    width: 100%;
-    height: 280px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   height: 400px;
 
 }
 
 .area-ofertas img {
     width: 100%;
-    height: 240px;
+    height: 400px;
+    
 
 }
 
@@ -136,6 +129,8 @@ header {
     align-content: center;
     text-decoration: none;
     
+    
+    
 }
 
 .area-marca a{
@@ -149,16 +144,124 @@ header {
     display: inline-block;
     align-items: center;
     margin-left: 190px;
+    border-radius: 20%;
+
 }
 
 .marca-titulo{
     position: relative;
     top: 40%;
-    right: 10%;
+    right: 10.80%;
     
 }
 
 footer {
     background-color: #2f3540;
-    height: 80px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    height: 50px;
+    background-color: #A45A01;
+    margin: 1% 1% 1% 1%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.rodape ul{
+    display: flex;
+    list-style: none;
+}
+
+.rodape h5{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.rodape h6{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #33302B;
+}
+
+.rodape h6 :hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.rodape a{
+    text-decoration: none;
+    
+}
+
+.link-home-rodape{
+    text-decoration: none;
+}
+
+.area-link-contato-rodape{
+    margin: 2px -4% 0 -7%;
+}
+
+.titulos-colunas-rodape{
+    display: flex;
+    justify-content: center;
+}
+
+.area-link-rodape{
+    display: flex;
+    justify-content: center;
+}
+
+
+.area-link-rodape a{
+    display: flex;
+    width: 36%;
+}
+
+.area-link-rodape a :hover{
+    text-decoration: underline;
+}
+
+.icon-seta-direita-rodape{
+    text-decoration: none !important;
+    color: #33302B;
+    font-size: 25px !important;
+}
+
+.apps-rodape{
+    margin-top: 40px;
+
+}
+
+.apps-rodape ul{
+    margin-left: -2.5%;
+    
+}
+
+.apps-rodape ul li{
+    margin: 2%
+    
+}
+
+.apps-rodape i{
+    font-size: 1%;
+    text-decoration: none;
+    color: #33302B;
+}
+
+.apps-rodape i :hover{
+    text-decoration: none;
+    color: #33302B;
+}
+
+.icons-apps-rodape{
+    font-size: 10px;
 }
