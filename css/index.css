@@ -202,3 +202,10 @@ footer {
     color: #cecdcd;
     padding-left: 10px;
 }
+
+.logo-1{
+    display: flex;
+    margin-top: 1%;
+    width: 20%;
+    height: 250px;
+}

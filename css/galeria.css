@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Comfortaa-Regular";
-    src:url(Comfortaa/Comfortaa-VariableFont_wght.ttf)
+    src:url(Comfortaa/static/Comfortaa-Bold.ttf)
 }
 
 .comfortaa-regular{
@@ -10,24 +10,15 @@
 }
 
 footer {
-    background-color: var(--color-primary-2);
+    
 }
 
-
-@media screen and (max-width: 600px) {
-    #footer_items {
-        flex-direction: column;
-        gap: 20px;
-    }
-}
 
 header {
     width: 100%;
     padding: 28px 8%;
     position: sticky;
     top: 0;
-    background-color: var(--color-primary-1);
-    z-index: 3;
 }
 
 #menu {
@@ -54,7 +45,7 @@ header {
     gap: 18px;
     width: 25%;
     padding: 20px;
-    background-color: var(--color-neutral-0);
+    
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
@@ -84,45 +75,14 @@ header {
     color: var(--color-primary-6);
 }
 
-.dish-price {
+.preco {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-@media screen and (max-width: 1170px) {
-    #dishes {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .dish {
-        width: calc(50% - 12px);
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .dish {
-        width: 100%;
-    }
-
-    #menu .section-subtitle {
-        text-align: center;
-    }
-} 
-
-
-
 :root {
-    --color-primary-1: #F7F6F0;
-    --color-primary-2: #2F3540;
-    --color-primary-3: #2F3540;
-    --color-primary-4: #275ec4;
-    --color-primary-5: #a2abbb;
     --color-primary-6: #2F3540;
-
-    --color-neutral-0: #fff;
-    --color-neutral-1: #1d1d1d;
 }
 
 * {
@@ -134,10 +94,6 @@ header {
 
 html {
     scroll-behavior: smooth;
-}
-
-body {
-    background-color: var(--color-primary-1);
 }
 
 section {
