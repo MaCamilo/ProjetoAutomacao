@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Comfortaa-regular";
+    src: url(static/Comfortaa-Regular.ttf);
+}
+.Comfortaa{
+    font-family: "Comfortaa-regular";
+    font-weight: 400; /*estilo da letra 'negrito'*/
+    font-size: normal;
+}
+.Comfortaa-estilo{
+    font-family: "Comfortaa-regular",system-ui;
+    font-optical-sizing: auto;
+    font-size: normal;
+}
+*{
+    margin: 0;
+    padding: 0;/*espaçamento*/
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    width: 100%;
+    font-family: 'Arial', Helvetica, sans-serif;
+    background-color: #2e343b;/*cor do fundo*/
+    color: #fff; /*cor da letra*/
+    overflow: hidden;
+}
+.header{
+ padding: 30px;
+ position: relative;
+ z-index: 5;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+}
+.sobre-nos, .nossos-servicos {
+    background-color: #f7f6f0;/*cor do fundo da caixa*/
+    color: #333;/*cor da letra dentro da caixa*/
+    padding: 10px;
+    height: 90%;
+    border-radius: 80px; /*borda*/
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+h2 {
+    
+    font-size: 37px;/*tamanho do titulo*/
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+p {
+    line-height: 1.5;
+    margin-bottom: 60px;
+    display: flex;
+    text-align: center;
+    justify-content:center; /*estilo e jeito do texto*/
+}
+.teste{
+display: flex;
+margin-top: 60px;
+}
+.servicos {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.servico {
+    width: 80%;
+}
+.servico img {
+    width: 200px;
+    height: 300px;/*espaço tam e largura da img*/
+    margin-bottom: 10px;
+    /*tamanho das imagens*/
+}
+
+.servico p {
+    font-size: 15px;
+}
+.caixa_a_direita{
+    margin-left: 5px;
+}
+.coluna{
+    display: flex;
+    align-items:auto;
+    margin: right 250px;
+}
+.divisao1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+}
