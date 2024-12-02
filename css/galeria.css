@@ -1,24 +1,95 @@
-@font-face{
+@font-face {
     font-family: "Comfortaa-Regular";
-    src:url(Comfortaa/static/Comfortaa-Bold.ttf)
+    src: url(static/Comfortaa-Regular.ttf)
 }
 
-.comfortaa-regular{
-    font-family: "comfortaa-regular" serif;
+.Comfortaa {
+    font-family: "Comfortaa-Regular";
     font-weight: 400;
     font-style: normal;
 }
 
-footer {
-    
+.Comfortaa-Style {
+    font-family: "Comfortaa-Regular", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-
 header {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho {
     width: 100%;
-    padding: 28px 8%;
-    position: sticky;
-    top: 0;
+    height: 120px;
+    background-color: #2f3540;
+}
+
+.logo {
+    display: flex;
+    margin-top: 1%;
+    width: 20%;
+    height: 150px;
+}
+
+.sub-cabecalho {
+    margin-left: 100px;
+}
+
+.sub-cabecalho ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.sub-cabecalho ul li {
+    width: 140px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    color: #fff;
+    
+
+}
+
+.sub-cabecalho ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.linha {
+    align-content: flex-end;
+    margin-left: 300px;
+    margin-right: 50px;
+    color: white;
+}
+
+.cor-branco {
+    color: white;
+}
+
+.search-box {
+    position: absolute;
+    top: 10%;
+    right: 43%;
+
+    background-color: white;
+    height: 40px;
+    width: 300px;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.seach-text {
+    background-color: #fff;
+    border: 0;
+    border-color: #fff;
+    width: 200px;
+    height: 29px;
+    align-items: center;
 }
 
 #menu {
@@ -69,6 +140,7 @@ header {
 .dish-description {
     color: #434343;
     text-align: center;
+    margin-top: 20px;
 }
 
 .dish-rate i {
@@ -98,4 +170,58 @@ html {
 
 section {
     padding: 28px 8%;
+}
+footer {
+    background-color: #2f3540;
+    height: 280px;
+}
+
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+
+.logo-1{
+    display: flex;
+    margin-top: 1%;
+    width: 20%;
+    height: 250px;
 }
