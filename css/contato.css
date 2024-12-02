@@ -9,13 +9,21 @@
     font-style: normal;
 }
 
+a{
+    text-decoration: none;
+}
 
 .h1{
     font-family: "comfortaa-regular";
     font-optical-sizing: auto;
     font-style: normal;
     justify-content: center;
+
 } 
+
+.h4{
+    color: #fff;
+}
 
 header{
     background-color: #F7F6F0;
