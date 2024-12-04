@@ -4,7 +4,7 @@ document.getElementById('cadastrar').addEventListener('submit', function (event)
     const nome = document.getElementById('nome').value
     const idade = document.getElementById('idade').value
     const CPF = document.getElementById('CPF').value
-    const CPE = document.getElementById('CPE').value
+    const CPE = document.getElementById('CEP').value
     const email = document.getElementById('email').value
     const senha = document.getElementById('senha').value
     
@@ -13,7 +13,7 @@ document.getElementById('cadastrar').addEventListener('submit', function (event)
         nome: nome,
         idade: idade,
         CPF: CPF,
-        CPE: CPE,
+        CPE: CEP,
         email: email,
         senha: senha,
         
