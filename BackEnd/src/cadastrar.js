@@ -4,10 +4,10 @@ document.getElementById('cadastrar').addEventListener('submit', function (event)
     const nome = document.getElementById('nome').value
     const idade = document.getElementById('idade').value
     const CPF = document.getElementById('CPF').value
-    const CPE = document.getElementById('CEP').value
+    const CEP = document.getElementById('CEP').value
     const email = document.getElementById('email').value
     const senha = document.getElementById('senha').value
-    
+
 
     const data = {
         nome: nome,
@@ -16,10 +16,10 @@ document.getElementById('cadastrar').addEventListener('submit', function (event)
         CPE: CEP,
         email: email,
         senha: senha,
-        
+
     }
 
-    fetch('http://localhost:8081/contato', {
+    fetch('http://localhost:8081/cadastrar', {
         method: 'POST',
 
         headers: {
@@ -50,7 +50,7 @@ document.getElementById('cadastrar').addEventListener('submit', function (event)
 
                 window.location.href = 'index.html'
             }
-            //mudar a mensagem
+            
             else if (data.msg === "O email já está cadastrado") {
                 alert('O Email já está cadastrado')
             }

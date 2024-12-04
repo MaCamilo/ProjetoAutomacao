@@ -1,12 +1,13 @@
 const express = require('express');
-const routers = require('./routers');
+const cors = require('cors')
+const routers = require('./routers'); 
 
-app = express();
+const app = express();
 
 app.use(express.json());
+app.use(cors()); 
+app.use(routers); 
 
-app.use(routers);
-
-app.listen(8081, function(){
-    console.log('O servidor está executando na url:http://localhost:8081')
-})
+    app.listen(8081, function(){
+        console.log("Servidor excutando na url: http://localhost:8081")
+    });
