@@ -24,17 +24,13 @@ body {
 body-2 {
     content: '';
     width: 100%;
-    height: 100%;
+    height: 1000px;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
 }
-.header {
-    padding: 70px; /*centralizar*/
-    position: relative;
-    z-index: 10;
-}
+
 /*login*/
 .login_body {
     padding: 70px;
@@ -165,6 +161,13 @@ body-2 {
     width: 15px; /* largura do botao do lembre-se de mim*/
     height: 15px; 
 }
+
+footer{
+    margin-top: 50px;
+    height: 500px;
+    width: 100%;
+}
+
 
 
 
